@@ -6,19 +6,19 @@ discord "https://discord.gg/"
 
 client_scripts{
     "@vrp/lib/utils.lua",
-    "config/config_ponto.lua",
+    "config/config.lua",
     "client.lua"
 }
 
 server_scripts{
     "@vrp/lib/utils.lua",
+    --"config/config.lua",
     "server.lua"
 }
 
 files {
     "web/index.html",
     "web/estilo.css",
-    "web/fundotabletsemfundo.png",
     "web/back.js"
 }
 

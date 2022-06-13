@@ -1,14 +1,54 @@
-.container{
-    background-color: black;
+html{
+    height: 100%;
+    
+}
+body{
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 1000px) { /*1360*/
+    .section-login{
+        width: 90%;
+        padding-top: 10%;
+        margin-left: 5%;
+        margin-top: 150px;
+
+
+    }
+    .section-logado{
+        margin-top: 15%;
+    }
+    
+}
+
+@media only screen and (min-width: 800px){
+    .section-login{
+        width: 90%;
+        margin-left: 5%;
+        padding-top: 17%;
+        margin-top: 25px;
+        
+
+    }
+    .section-logado{
+        margin-top: 65px;
+    }
+}
+
+
+.section-login{
+    border-radius: 10px;    
+    color:white;
+    background-color: rgb(5, 5, 5);
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    padding-bottom: 46%;
-    margin: 15px;
-    margin-top: 90px;
+    padding-bottom: 10%;
+    
 }
 
 form{
@@ -19,18 +59,52 @@ form{
     justify-content: center;
     align-items: center;
 }
-section{
+.section-logado{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin-left: 15%;
+    width: 70%;
+    height: 337px;
+    background: black;
+    
+}
+
+.lateral{
+    border-radius: 5px;
+    text-align: center;
+    width: 10%;
+    background-color: azure;
+    margin: 10px;
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+    list-style: none;
+    font-family: sans-serif;
+}
+.listapp{
+    color: white;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-content: center;
     justify-content: center;
     align-items: center;
-    
+}
+.teste{
+    margin: 10px;
+    list-style: none;
+    font-family: sans-serif;
 }
 
-li{
-    font-size: 25px;
-    list-style: none;
-    font-family: Arial, Helvetica, sans-serif;
+.buttons{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons, button{
+    margin: 5px;
 }
